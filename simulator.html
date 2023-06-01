@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D random movement simulator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <section class="container">
+      <div class="one">
+        <h1 class="title">2D random movement simulator</h1>
+        <div id="map"></div>
+      </div>
+
+      <div id="side" class="two">
+        <h1 class="title">Control Panel</h1>
+        <div class="button-container">
+          <button id="hide-distance-btn">distances</button>
+          <button id="hide-safety-btn">safety distances</button>
+          <button id="show-only-safe-btn" style="background-color: #D82E3F">non-safe distances only</button>
+          <button id="start-btn">start</button>
+          <button id="stop-btn" disabled>stop</button>
+        </div>
+
+        <div class="table-container">
+          <h1 class="title">Coordinates summary</h1>
+          <table id="summary">
+            <thead></thead>
+            <tbody></tbody>
+          </table>
+
+          <h1 class="title">Distances matrix</h1>
+          <table id="distances">
+            <thead></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
