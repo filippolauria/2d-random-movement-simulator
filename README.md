@@ -15,6 +15,9 @@ This repository contains a minimal and prototypical web application for simulati
 - Allows users to start and stop point movement
 - Updates summary and distances tables dynamically
 
+## Demo
+![Demo GIF](https://github.com/filippolauria/2d-random-movement-simulator/blob/main/demo.gif)
+
 ## Usage
 
 1. Open the `simulator.html` file in a web browser.
